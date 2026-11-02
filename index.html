@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>Undead Arcade 3D - Mobile FPS</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Three.js CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+  <div id="game-container">
+    <canvas id="gl"></canvas>
+    <canvas id="hud"></canvas>
+  </div>
+
+  <div id="ov">
+    <h1>Undead Arcade 3D</h1>
+    <p id="msg">Left thumb moves. Right thumb aims & shoots.<br>Walk into glowing portals to travel between zones.</p>
+    <p id="best"></p>
+    <button id="go">START GAME</button>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
